@@ -1,0 +1,114 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+@font-face {
+    font-family: 'Dangam';
+    src: url(font/Dangam.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rose';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Rose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.container1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+  width: 30vw;
+  margin-top: 10vh;
+}
+
+.mt-5 {
+  font-family: yg-jalnan;
+  font-size: 10vw;
+  margin-bottom: 0;
+  margin-top: 5vh;
+}
+
+.mt-4 {
+    font-size: 7vw;
+    font-family: LeeSeoyun;
+    line-height: 150%;
+    margin-top:0;
+    padding:0;
+}
+.mt-4>input{
+  width: 60vw;
+  height: 3vh;
+}
+
+.btn {
+    background-color: rgb(144, 206, 103);
+    color: black;
+    width: 50vw;
+    height: 5vh;
+    margin-top: 3vh;
+    border-radius: 20px;
+    border: none;
+
+    font-family: LeeSeoyun;
+    font-size: 25px;
+
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background: rgb(144, 206, 103);
+    color: black;
+}

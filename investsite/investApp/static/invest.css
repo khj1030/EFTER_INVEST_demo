@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Dangam';
+    src: url(font/Dangam.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rose';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_09@1.0/Rose.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LeeSeoyun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixYeoljeongdo_Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.row {
+    width: 90%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+    width: 25%;
+}
+
+.mt-5 {
+    font-family: yg-jalnan;
+    font-size: 8vw;
+}
+
+.mt-4 {
+    font-size: 30px;
+    font-family: LeeSeoyun;
+    line-height: 150%;
+}
+
+.mt-3 {
+    font-family: LeeSeoyun;
+    font-size: 7vw;
+}
+
+.btn {
+    width: 100%; 
+    /* height: 100px; */
+    border-radius: 15px;
+
+    background-color: black;
+    color: white;
+
+    margin-top: 20px;
+
+    font-family: LeeSeoyun;
+    font-size: 25px;
+
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn:hover {
+    background: rgb(255, 217, 46);
+    color: black;
+}
+
+.have_money_data{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw 0 3.5vw;
+}
+
+.grid{
+  display: grid;
+  gap: 2vh;
+}
+.project{
+  width: 100%;
+  background-color: white;
+  border: solid 2px rgb(202, 202, 202);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 1vh 5vw 1vh 3.5vw;
+}
+
+.font{
+  font-family: yg-jalnan;
+  font-size: 5vw;
+}
+.money_data{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.font2{
+  font-family: yg-jalnan;
+  font-size: 4.3vw;
+  color: rgb(85, 134, 241);
+}
