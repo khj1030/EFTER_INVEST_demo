@@ -41,9 +41,9 @@
     const userID = document.querySelector(".id_data").value;
     if(Object.keys(jsonData).includes(userID)){
       localStorage.setItem("userID", userID);
+      location.href = 'invest';
     }
     console.log(jsonData[userID]);
-    location.href = 'invest';
   };
 
 </script>
